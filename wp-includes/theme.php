@@ -1078,7 +1078,7 @@ function get_header_image_tag( $attr = array() ) {
 	 * @param object $header The custom header object returned by 'get_custom_header()'.
 	 * @param array  $attr   Array of the attributes for the image tag.
 	 */
-	return apply_filters( 'get_header_image_tag', $html, $header, $attr );
+	return $html . apply_filters( 'get_header_image_tag', $html, $header, $attr );
 }
 
 /**
