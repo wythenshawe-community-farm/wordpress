@@ -24,6 +24,13 @@
 
 <body <?php body_class(); ?>>
 
+<?php // Xmas lights ?>
+<ul class="lightrope">
+    <?php foreach (range(1,42) as $i) { ?>
+        <li></li>
+    <?php } ?>
+</ul>
+
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'twentyseventeen' ); ?></a>
 
